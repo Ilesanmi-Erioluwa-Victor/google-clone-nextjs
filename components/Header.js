@@ -3,7 +3,7 @@ import User from './User'
 
 const Header = () => {
   return (
-    <header>
+    <header className='flex justify-between items-center p-5 text-sm text-gray-700'>
       <section className=''>
         <ul>
             <li>About</li>
