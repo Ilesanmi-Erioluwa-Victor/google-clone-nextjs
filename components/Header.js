@@ -1,11 +1,23 @@
 import React from 'react'
+import User from './User'
 
 const Header = () => {
   return (
     <header>
-      <section></section>
+      <section className=''>
+        <ul>
+            <li>About</li>
+            <li>Store</li>
+        </ul>
+      </section>
 
-      <section></section>
+      <section>
+      <ul>
+            <li>Gmail</li>
+            <li>Images</li>
+            <User />
+        </ul>
+      </section>
     </header>
   )
 }
