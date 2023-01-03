@@ -6,15 +6,15 @@ const Header = () => {
     <header className='flex justify-between items-center p-5 text-sm text-gray-700'>
       <section className='block relative'>
         <ul className='flex space-x-4 items-center'>
-            <li>About</li>
-            <li>Store</li>
+            <li className='link'>About</li>
+            <li className='link'>Store</li>
         </ul>
       </section>
 
       <section>
       <ul className='flex space-x-4 items-center'>
-            <li>Gmail</li>
-            <li>Images</li>
+            <li className='link'>Gmail</li>
+            <li className='link'>Images</li>
             <User />
         </ul>
       </section>

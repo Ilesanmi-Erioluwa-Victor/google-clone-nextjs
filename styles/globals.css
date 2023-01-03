@@ -10,6 +10,6 @@
 
 @layer components {
     .link {
-        @apply
+        @apply hover:cursor-pointer underline;
     }
 }
